@@ -1,6 +1,6 @@
 # Express Boilerplate!
 
-This is a boilerplate project used for starting new projects!
+This is a boilerplate project used for starting new projects WITH some refractoring for errorHandler and validateBearerToken!
 
 ## Set up
 
@@ -12,6 +12,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 4. Install the node dependencies `npm install`
 5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
 6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+7. Generate a new UUID code and replace the API_TOKEN with your new number.
 
 ## Scripts
 
